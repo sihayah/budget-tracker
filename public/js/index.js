@@ -97,8 +97,9 @@ function sendTransaction(isAdding) {
     name: nameEl.value,
     value: amountEl.value,
     date: new Date().toISOString()
-  };
 
+    
+  };
   // if subtracting funds, convert amount to negative number
   if (!isAdding) {
     transaction.value *= -1;
