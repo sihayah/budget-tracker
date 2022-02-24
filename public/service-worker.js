@@ -14,4 +14,14 @@ const FILES_TO_CACHE = [
     "./public/icons/icon-192x192.png",
     "./public/icons/icon-384x384.png",
     "./public/icons/icon-512x512.png"
-]
+];
+
+// Cache resources
+self.addEventListener('install', function(e) {
+    e.waitUntil(
+        caches.open(CACHE_NAME).then(function(cache) {
+            console.log('installing cache : ' + CACHE_NAME)
+            return cache.addAll(FILES_TO_CACHE)
+        })
+    )
+})
