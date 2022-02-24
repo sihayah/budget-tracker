@@ -8,7 +8,6 @@
 
   ## TABLE OF CONTENTS
 
-  ---
 
 
   [Description](#description) *
@@ -25,7 +24,6 @@
 
   ## Description
 
-  ---
 
   This app allows the user to input and graph income and expenses.
   <br>
@@ -37,7 +35,6 @@
 
   ## Installation
 
-  ---
   
   Navigate to https://blooming-plains-15476.herokuapp.com/
 
@@ -45,7 +42,6 @@
 
 ## Usage
 
-  ---
 
   Use input to add the name and amount of a transaction. Then select the correspondning button to add or remove funds.
 
@@ -54,7 +50,6 @@
 
   ## Questions
 
-  ---
 
   For any further inquiries, please contact me via gitHub: [(sihayah)](https://github.com/sihayah) or email: sihayaharris@gmail.com
 
@@ -64,7 +59,6 @@
 
   ## License
 
-  ---
   
   [click here for more information about ISC license.]()
   
