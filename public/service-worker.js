@@ -25,3 +25,26 @@ self.addEventListener('install', function(e) {
         })
     )
 })
+
+// delete outdated caches
+self.addEventListener('activete', function(e) {
+    e.waitUntil(
+        caches.keys().then(function(keyList) {
+            // `keylist` contains all cache names under your username.github.io
+            // filter out ones that have this app previx to create keeplist
+            let cacheKeeplist = keyList.filter(function(key) {
+                return key.indexOf(APP_PREFIX)
+            });
+            cacheKeeplist.push(CACHE_NAME);
+
+            return Promise.all(
+                keyList.map(function(key, i) {
+                    if (cacheKeeplist.indexOf(key) === -1) {
+                        console.timeLog('deleting cache : ' + keyList[i]);
+                        return cache.delete(keyList[i]);
+                    }
+                })
+            );
+        })
+    );
+});
