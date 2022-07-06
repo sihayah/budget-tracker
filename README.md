@@ -28,23 +28,26 @@
 
   Tracking spending and earnings is important for most individuals to ensure their budget is balanced wisely. This app provides a simple and easy way to track a budget. It allows the user to input and graph income and expenses. Offline functionality allows the user to input data, even without an interent connection.
   <br>
-  Deployment: (https://blooming-plains-15476.herokuapp.com/)
   <br>
-  Repo: (https://github.com/sihayah/budget-tracker)
+  Live: https://blooming-plains-15476.herokuapp.com/
+  <br>
+  Repo: https://github.com/sihayah/budget-tracker
 
   ## Prerequisites
 
-  Make sure you have the following installed in your development environment:
+  Make sure you have the following installed on your development machine:
 
   Git - [Download & Install Git](https://git-scm.com/downloads)
+  <br>
   Node.js - [Download & Install Node.js](https://nodejs.org/en/download/)
+  <br>
   Visual Studio Code - [Download & Install VS Code](https://code.visualstudio.com/download)
 
   
 
   ## Installation
 
-  Clone the repo locally. Open of the repo in VS Code. Run npm install to install all dependencies...
+  Clone the repo locally. Open of the repo in VS Code. Run npm install to install all dependencies via the command line...
 
     npm install
 
