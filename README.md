@@ -26,7 +26,7 @@
   ## Description
 
 
-  Tracking spending is important for most individuals to ensure their budget is balanced wisely. This is a simple and easy to use budget tracking app. It allows the user to input and graph income and expenses. Offline functionality allows the user to input data, even without an interent connection.
+  Tracking spending and earnings is important for most individuals to ensure their budget is balanced wisely. This app provides a simple and easy way to track a budget. It allows the user to input and graph income and expenses. Offline functionality allows the user to input data, even without an interent connection.
   <br>
   Deployment: (https://blooming-plains-15476.herokuapp.com/)
   <br>
@@ -65,7 +65,7 @@
   If you then navigate to http://localhost:3001, you should seed the following:
 
   <img width=50% height=auto src= 'landing-no-data.png'> 
-  
+
 
   Use input to add the name and amount of a transaction. Then select the correspondning button to add or remove funds.
 
