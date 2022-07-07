@@ -9,9 +9,10 @@
   ## TABLE OF CONTENTS
 
 
-
-  [Description](#description) *
-  [Prerequisites](#prerequisites)*
+  [User Story](#userstory) *
+  [Features](#features) *
+  [Technologies](#technologies) *
+  [Prerequisites](#prerequisites) *
   [Installation](#installation) *
   [Usage](#usage) *
   [Questions](#questions) *
@@ -22,16 +23,25 @@
    <img width=50% height=auto src= 'landing.png'> 
   
   <br>
-
-  ## Description
-
-
-  Tracking spending and earnings is important for most individuals to ensure their budget is balanced wisely. This app provides a simple and easy way to track a budget. It allows the user to input and graph income and expenses. Offline functionality allows the user to input data, even without an interent connection.
+  Live: https://blooming-plains-15476.herokuapp.com/ 
+  <br>
+  Repo: https://github.com/sihayah/budget-tracker  
   <br>
   <br>
-  Live: https://blooming-plains-15476.herokuapp.com/
+
+  ## UserStory
+
+  AS AN avid traveler
+  I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
+  SO THAT my account balance is accurate when I am traveling 
+  
   <br>
-  Repo: https://github.com/sihayah/budget-tracker
+
+  ## Features
+  
+  This app provides a simple and easy way to track a budget. It allows the user to input and graph income and expenses. Offline functionality allows the user to input data, even without an interent connection.
+  <br>
+  <br>
 
   ## Prerequisites
 
@@ -43,34 +53,37 @@
   <br>
   Visual Studio Code - [Download & Install VS Code](https://code.visualstudio.com/download)
 
+  <br>
   
-
   ## Installation
-
-  Clone the repo locally. Open of the repo in VS Code. Run npm install to install all dependencies via the command line...
-
-    npm install
+  To demo this app from a browseer navigate to https://blooming-plains-15476.herokuapp.com/.
 
   <br>
 
-## Usage 
+  To demo locally, clone the repo. Navigate to the root of the repo via command line. Run npm install to install all dependencies via the command line:
 
-  To demo this app navigate to https://blooming-plains-15476.herokuapp.com/.
+    npm install
 
-  To view locally, run npm start in the command line. 
+  And then to start the app run:
 
     npm start
+
+  <br>
 
   If it's running the following response should occur in your command line...
 
    <img src= 'code-snippet.png'> 
 
-  If you then navigate to http://localhost:3001, you should seed the following:
+  If you then navigate to http://localhost:3001, you should see the following:
 
   <img width=50% height=auto src= 'landing-no-data.png'> 
 
+<br>
 
-  Use input to add the name and amount of a transaction. Then select the correspondning button to add or remove funds.
+  ## Usage
+
+
+  Use the inputs at the top to add the name and amount of a transaction. Then select the corresponding button to add or remove funds.
 
 
   <br>
