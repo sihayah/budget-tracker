@@ -45,6 +45,8 @@
 
   ## Technologies
   
+  The following techonologies were used in the production of this application:
+
   * HTML5
   * CSS3
   * JavaScript
