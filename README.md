@@ -32,7 +32,9 @@
   ## UserStory
 
   AS AN avid traveler
+  <br>
   I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
+  <br>
   SO THAT my account balance is accurate when I am traveling 
   
   <br>
