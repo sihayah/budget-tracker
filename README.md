@@ -43,6 +43,16 @@
   <br>
   <br>
 
+  ## Technologies
+  
+  * HTML5
+  * CSS3
+  * JavaScript
+  * Node.js
+  * Heroku
+  * MongoDB
+  * IndexedDB
+
   ## Prerequisites
 
   Make sure you have the following installed on your development machine:
