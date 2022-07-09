@@ -41,7 +41,7 @@
 
   ## Features
   
-  This app provides a simple and easy way to track a budget. It allows the user to input and graph income and expenses. Offline functionality allows the user to input data, even without an interent connection.
+  This app provides a simple and easy way to track a budget. It allows the user to input and graph income and expenses. Offline functionality allows the user to input data, even without an internet connection.
   <br>
   <br>
 
