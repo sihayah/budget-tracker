@@ -23,7 +23,7 @@
    <img width=50% height=auto src= 'landing.png'> 
   
   <br>
-  Live: https://blooming-plains-15476.herokuapp.com/ 
+  Live: https://budgettracker.herokuapp.com/
   <br>
   Repo: https://github.com/sihayah/budget-tracker  
   <br>
